@@ -1,0 +1,8 @@
+[package]
+name = "atom-vk"
+version = "0.1.0"
+edition = "2021"
+description = "A minimal Vulkan-shaped compute API composed from math atoms. Zero dependencies."
+
+[dependencies]
+# none — the API constitution is std-only. GPU backends plug in behind the trait.

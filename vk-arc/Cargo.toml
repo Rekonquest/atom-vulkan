@@ -1,0 +1,8 @@
+[package]
+name = "atom-vk-arc"
+version = "0.1.0"
+edition = "2021"
+description = "Atom Arc driver backend for atom-vk. A walking skeleton pinned to the driver stacking order; fails closed until each stage lands."
+
+[dependencies]
+atom-vk = { path = "../vk" }

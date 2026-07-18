@@ -1,0 +1,8 @@
+[workspace]
+members = ["vk", "vk-wgpu", "vk-gl", "vk-arc", "demo-arena", "demo-raster"]
+resolver = "2"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1

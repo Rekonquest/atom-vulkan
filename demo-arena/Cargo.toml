@@ -1,0 +1,14 @@
+[package]
+name = "demo-arena"
+version = "0.1.0"
+edition = "2021"
+description = "atom-arena running through the atom-vk API: parity vs the zero-dep CPU renderer, plus the Arc walking skeleton."
+
+[dependencies]
+atom-arena = { path = "C:/Projects/atom-arena" }
+atom-arena-gpu = { path = "C:/Projects/atom-arena/gpu" }
+atom-vk = { path = "../vk" }
+atom-vk-wgpu = { path = "../vk-wgpu" }
+atom-vk-arc = { path = "../vk-arc" }
+atom-vk-gl = { path = "../vk-gl" }
+bytemuck = { version = "1", features = ["derive"] }

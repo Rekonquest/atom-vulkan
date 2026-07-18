@@ -1,0 +1,12 @@
+[package]
+name = "demo-raster"
+version = "0.1.0"
+edition = "2021"
+description = "Graphics through compute: a GPU software rasterizer driven through atom-vk. Triangles in, framebuffer out — the graphics stage of the general replacement."
+
+[dependencies]
+atom-arena = { path = "C:/Projects/atom-arena" }
+atom-vk = { path = "../vk" }
+atom-vk-wgpu = { path = "../vk-wgpu" }
+atom-vk-gl = { path = "../vk-gl" }
+bytemuck = { version = "1", features = ["derive"] }

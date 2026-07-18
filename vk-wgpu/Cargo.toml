@@ -1,0 +1,11 @@
+[package]
+name = "atom-vk-wgpu"
+version = "0.1.0"
+edition = "2021"
+description = "wgpu GPU backend for atom-vk: CPU submits, GPU executes. The reference backend."
+
+[dependencies]
+atom-vk = { path = "../vk" }
+wgpu = "26"
+pollster = "0.4"
+bytemuck = { version = "1", features = ["derive"] }

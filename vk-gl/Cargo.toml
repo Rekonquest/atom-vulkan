@@ -1,0 +1,8 @@
+[package]
+name = "atom-vk-gl"
+version = "0.1.0"
+edition = "2021"
+description = "OpenGL 4.3 compute backend for atom-vk: vendor-native (NVIDIA/AMD/Intel driver compiles the shader text), zero external crates — raw WGL/GL FFI."
+
+[dependencies]
+atom-vk = { path = "../vk" }
