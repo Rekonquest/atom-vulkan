@@ -1,0 +1,13 @@
+[package]
+name = "demo-universe"
+version = "0.1.0"
+edition = "2021"
+description = "The universum substrate evolved on the GPU through atom-vk: same laws, ping-pong Jacobi, parity-checked against the zero-dep CPU World."
+
+[dependencies]
+atom-arena = { path = "C:/Projects/atom-arena" }
+atom-vk = { path = "../vk" }
+atom-vk-wgpu = { path = "../vk-wgpu" }
+atom-vk-gl = { path = "../vk-gl" }
+universum-substrate = { path = "C:/Projects/universe equavelant to vulkan driver" }
+bytemuck = { version = "1", features = ["derive"] }

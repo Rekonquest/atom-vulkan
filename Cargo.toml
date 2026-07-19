@@ -1,5 +1,5 @@
 [workspace]
-members = ["vk", "vk-wgpu", "vk-gl", "vk-arc", "demo-arena", "demo-raster"]
+members = ["vk", "vk-wgpu", "vk-gl", "vk-arc", "demo-arena", "demo-raster", "demo-universe"]
 resolver = "2"
 
 [profile.release]
